@@ -22,8 +22,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImagePainter
-import coil.compose.ImagePainter
-import coil.compose.rememberImagePainter
+import coil.compose.rememberAsyncImagePainter
 import com.funkymuse.aurora.generalbook.GeneralBook
 import com.funkymuse.aurora.loadingcomponent.BoxShimmer
 import com.funkymuse.aurora.serverconstants.LIBGEN_BASE_URL
@@ -152,8 +151,8 @@ private fun AddTitle(
 
 @Composable
 private fun AddStaticImage(remoteImage: String?) {
-    val imageUrl = LIBGEN_BASE_URL + remoteImage
-    val painter = rememberImagePainter(data = imageUrl)
+    val imageUrl = LIBGEN_BASE_URL.subSequence(0,LIBGEN_BASE_URL.length-1).toString() + remoteImage
+    val painter = rememberAsyncImagePainter(model = imageUrl)
 
     val size = Size(85.dp.value, 130.dp.value)
 
