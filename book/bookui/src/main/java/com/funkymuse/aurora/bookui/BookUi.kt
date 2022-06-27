@@ -21,6 +21,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
+import coil.compose.AsyncImagePainter
 import coil.compose.ImagePainter
 import coil.compose.rememberImagePainter
 import com.funkymuse.aurora.generalbook.GeneralBook
@@ -160,12 +161,12 @@ private fun AddStaticImage(remoteImage: String?) {
         .size(size.width.dp, size.height.dp)
 
     when (painter.state) {
-        is ImagePainter.State.Loading -> {
+        is AsyncImagePainter.State.Loading -> {
             Box(modifier = imageModifier) {
                 BoxShimmer(padding = 0.dp, imageHeight = size.height.dp, imageWidth = size.width.dp)
             }
         }
-        is ImagePainter.State.Success, is ImagePainter.State.Error, ImagePainter.State.Empty -> {
+        is AsyncImagePainter.State.Success, is AsyncImagePainter.State.Error, AsyncImagePainter.State.Empty -> {
             Box(modifier = imageModifier, contentAlignment = Alignment.Center) {
                 Image(
                     painter = painter,

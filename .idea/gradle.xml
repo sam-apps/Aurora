@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleJvm" value="Android Studio java home" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/book" />
+            <option value="$PROJECT_DIR$/book/bookdownloader" />
+            <option value="$PROJECT_DIR$/book/bookmodel" />
+            <option value="$PROJECT_DIR$/book/bookui" />
+            <option value="$PROJECT_DIR$/book/generalbook" />
+            <option value="$PROJECT_DIR$/bookdetails" />
+            <option value="$PROJECT_DIR$/bookdetails/bookdetailsdata" />
+            <option value="$PROJECT_DIR$/bookdetails/bookdetailsdestination" />
+            <option value="$PROJECT_DIR$/bookdetails/bookdetailsmodel" />
+            <option value="$PROJECT_DIR$/bookdetails/bookdetailsui" />
+            <option value="$PROJECT_DIR$/bottomnavigation" />
+            <option value="$PROJECT_DIR$/common" />
+            <option value="$PROJECT_DIR$/common/commonextensions" />
+            <option value="$PROJECT_DIR$/common/composeextensions" />
+            <option value="$PROJECT_DIR$/common/onetimepreferences" />
+            <option value="$PROJECT_DIR$/common/runCodeEveryXLaunch" />
+            <option value="$PROJECT_DIR$/components" />
+            <option value="$PROJECT_DIR$/components/backbuttoncomponent" />
+            <option value="$PROJECT_DIR$/components/confirmationdialog" />
+            <option value="$PROJECT_DIR$/components/errorcomponent" />
+            <option value="$PROJECT_DIR$/components/loadingcomponent" />
+            <option value="$PROJECT_DIR$/components/radiobuttoncomponent" />
+            <option value="$PROJECT_DIR$/components/scaffolds" />
+            <option value="$PROJECT_DIR$/components/topappbars" />
+            <option value="$PROJECT_DIR$/coroutines" />
+            <option value="$PROJECT_DIR$/coroutines/appscope" />
+            <option value="$PROJECT_DIR$/coroutines/dispatchers" />
+            <option value="$PROJECT_DIR$/crashes" />
+            <option value="$PROJECT_DIR$/crashes/crashesdestination" />
+            <option value="$PROJECT_DIR$/crashes/crashesui" />
+            <option value="$PROJECT_DIR$/donations" />
+            <option value="$PROJECT_DIR$/donations/donationsdata" />
+            <option value="$PROJECT_DIR$/donations/donationsdestination" />
+            <option value="$PROJECT_DIR$/donations/donationsui" />
+            <option value="$PROJECT_DIR$/donations/explanation" />
+            <option value="$PROJECT_DIR$/donations/explanation/donationsexplanationdestination" />
+            <option value="$PROJECT_DIR$/donations/explanation/donationsexplanationui" />
+            <option value="$PROJECT_DIR$/downloads" />
+            <option value="$PROJECT_DIR$/downloads/downloadsdata" />
+            <option value="$PROJECT_DIR$/downloads/downloadsdestination" />
+            <option value="$PROJECT_DIR$/downloads/downloadsui" />
+            <option value="$PROJECT_DIR$/extensions" />
+            <option value="$PROJECT_DIR$/favoritebook" />
+            <option value="$PROJECT_DIR$/favoritebook/favoritebookdb" />
+            <option value="$PROJECT_DIR$/favoritebook/favoritebookmodel" />
+            <option value="$PROJECT_DIR$/favoritebook/favoritebookui" />
+            <option value="$PROJECT_DIR$/internetdetector" />
+            <option value="$PROJECT_DIR$/latestbooks" />
+            <option value="$PROJECT_DIR$/latestbooks/latestbooksdata" />
+            <option value="$PROJECT_DIR$/latestbooks/latestbooksui" />
+            <option value="$PROJECT_DIR$/navigator" />
+            <option value="$PROJECT_DIR$/paging" />
+            <option value="$PROJECT_DIR$/resources" />
+            <option value="$PROJECT_DIR$/resources/colors" />
+            <option value="$PROJECT_DIR$/resources/drawables" />
+            <option value="$PROJECT_DIR$/resources/strings" />
+            <option value="$PROJECT_DIR$/retrofit" />
+            <option value="$PROJECT_DIR$/retrofit/libgenapi" />
+            <option value="$PROJECT_DIR$/retrofit/networking" />
+            <option value="$PROJECT_DIR$/scraper" />
+            <option value="$PROJECT_DIR$/scraper/scrapermodel" />
+            <option value="$PROJECT_DIR$/scraper/skraper" />
+            <option value="$PROJECT_DIR$/search" />
+            <option value="$PROJECT_DIR$/search/searchdata" />
+            <option value="$PROJECT_DIR$/search/searchfilter" />
+            <option value="$PROJECT_DIR$/search/searchfilter/searchfilterdestination" />
+            <option value="$PROJECT_DIR$/search/searchfilter/searchfilterui" />
+            <option value="$PROJECT_DIR$/search/searchui" />
+            <option value="$PROJECT_DIR$/searchresult" />
+            <option value="$PROJECT_DIR$/searchresult/searchresultdata" />
+            <option value="$PROJECT_DIR$/searchresult/searchresultdestination" />
+            <option value="$PROJECT_DIR$/searchresult/searchresultui" />
+            <option value="$PROJECT_DIR$/serverconstants" />
+            <option value="$PROJECT_DIR$/settings" />
+            <option value="$PROJECT_DIR$/settings/settingsdata" />
+            <option value="$PROJECT_DIR$/settings/settingsui" />
+            <option value="$PROJECT_DIR$/style" />
+            <option value="$PROJECT_DIR$/style/color" />
+            <option value="$PROJECT_DIR$/style/shape" />
+            <option value="$PROJECT_DIR$/style/theme" />
+            <option value="$PROJECT_DIR$/style/typography" />
+            <option value="$PROJECT_DIR$/toaster" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

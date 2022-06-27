@@ -24,6 +24,7 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.compose.ui.zIndex
 import androidx.hilt.navigation.compose.hiltViewModel
+import coil.compose.AsyncImagePainter
 import coil.compose.ImagePainter
 import coil.compose.rememberImagePainter
 import com.crazylegend.intent.openWebPage
@@ -249,10 +250,10 @@ fun DetailedBook(
             .padding(top = 16.dp)
 
         when (painter.state) {
-            is ImagePainter.State.Loading -> {
+            is AsyncImagePainter.State.Loading -> {
                 CardShimmer(imageHeight = 240.dp, imageWidth = 200.dp)
             }
-            is ImagePainter.State.Success, is ImagePainter.State.Error, ImagePainter.State.Empty -> {
+            is AsyncImagePainter.State.Success, is AsyncImagePainter.State.Error, AsyncImagePainter.State.Empty -> {
                 Card(shape = Shapes.large, modifier = imageModifier) {
                     Image(
                         painter = painter,

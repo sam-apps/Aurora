@@ -80,7 +80,8 @@ class BookScraper @Inject constructor() {
     private fun processDocument(document: Document): List<Book> {
         return document.select("table").asSequence().drop(2).map {
 
-            val elementList = tryOrNull { it.select("tr").filter { it.children().size >= 2 } }
+            val elementList = tryOrNull {
+                it.select("tr").filter{ it->it.children().size >= 2 } }
                 ?.map { it.select("td") }?.flatten()
 
             val res = if (!elementList.isNullOrEmpty()) {
