@@ -4,7 +4,7 @@ buildscript {
         kotlin_version = '1.6.10'
         room = "2.4.2"
         KAHelpers = '3.2.2'
-        moshi = "1.13.0"
+        moshi = "1.14.0"
         daggerVersion = '2.42'
         hiltJetpackVersion = '1.0.0'
         retrofit = "2.9.0"
